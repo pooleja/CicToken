@@ -1,0 +1,25 @@
+{
+  "name": "cictoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "truffle compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pooleja/CicToken.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pooleja/CicToken/issues"
+  },
+  "homepage": "https://github.com/pooleja/CicToken#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "@openzeppelin/upgrades": "^2.8.0",
+    "truffle": "^5.1.40"
+  }
+}
