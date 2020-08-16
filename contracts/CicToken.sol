@@ -14,6 +14,8 @@ contract CicToken is ERC20, Proxiable, Ownable {
   function initialize(string memory name, string memory symbol, uint256 supply) public {
     require(!initialized, "Initialize can only be called once");
 
+    initialized=true;
+
     _initERC20(name, symbol);
     _mint(msg.sender, supply);
     _setOwner(msg.sender);
